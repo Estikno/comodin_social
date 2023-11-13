@@ -1,0 +1,259 @@
+---
+//import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Hero from '~/components/widgets/Hero.astro';
+//import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Sobre Nosaltres"
+    image={{
+      src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Caos Image',
+    }}
+  >
+    <Fragment slot="title">
+      Oferim informació per a la gent necessitada
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Benvinguts al nostre espai dedicat a connectar persones amb recursos vitals mitjançant informació accessible i suport comunitari. Som un grup de vuit persones procedents de l'Institut Martí Pol, compromeses amb la creació d'un impacte positiu a la nostra comunitat.
+    </Fragment>
+  </Hero>
+
+  <!-- Stats Widget ****************** -->
+
+  {/*<Stats
+    title="Statistics about us"
+    stats={[
+      { title: 'Offices', amount: '4' },
+      { title: 'Employees', amount: '248' },
+      { title: 'Templates', amount: '12' },
+      { title: 'Awards', amount: '24' },
+    ]}
+    />*/}
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="La nostra missió"
+    subtitle="La nostra missió és simple: estendre una mà amiga als membres de la comunitat que es troben en dificultats. Creiem que la informació pot ser una eina poderosa per millorar la vida de les persones, i això és el que busquem aconseguir amb el nostre projecte."
+    columns={3}
+    isBeforeContent={true}
+    items={[
+      {
+        title: 'Solidaritat',
+        description:
+          'Creiem en la força de la comunitat i en el suport mútu.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Acció',
+        description:
+          "Passar de les paraules a l'acció per fer una diferència real",
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Compromís',
+        description:
+          'Estem dedicats a millorar la vida de les persones necessitades.',
+        icon: 'tabler:template',
+      },
+    ]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  {/*<Features3
+    columns={3}
+    isAfterContent={true}
+    items={[
+      {
+        title: 'E-commerce',
+        description:
+          'Rutrum non odio at vehicula. Proin ipsum justo, dignissim in vehicula sit amet, dignissim id quam. Sed ac tincidunt sapien.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Blog',
+        description:
+          'Nullam efficitur volutpat sem sed fringilla. Suspendisse et enim eu orci volutpat laoreet ac vitae libero.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Business',
+        description:
+          'Morbi et elit finibus, facilisis justo ut, pharetra ipsum. Donec efficitur, ipsum quis congue luctus, mauris magna.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Branding',
+        description:
+          'Suspendisse vitae nisi eget tortor luctus maximus sed non lectus. Cras malesuada pretium placerat. Nullam venenatis dolor a ante rhoncus.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Medical',
+        description:
+          'Vestibulum malesuada lacus id nibh posuere feugiat. Nam volutpat nulla a felis ultrices, id suscipit mauris congue. In hac habitasse platea dictumst.',
+        icon: 'tabler:template',
+      },
+      {
+        title: 'Fashion Design',
+        description:
+          'Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus.',
+        icon: 'tabler:template',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'Colorful Image',
+    }}
+  />*/}
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Equip"
+    subtitle="Som un grup de vuit estudiants de l'Institut Martí Pol, cadascun amb habilitats úniques i una passió compartida per ajudar. Treballem col·lectivament per assegurar-nos que el Projecte de Solidaritat tingui l'impacte màxim a la nostra comunitat."
+    items={[
+      {
+        title: 'Joan Augusto',
+        description:
+          'Dissenyador de la marca i ajudant a la creació del logo.',
+      },
+      {
+        title: 'Guillem Font',
+        description:
+          'Dissenyador gràfic i gestor de continguts.',
+      },
+      {
+        title: 'David Didenco',
+        description:
+          "Responsable de la web i investigador i recopilador d'informació sobre ajudes.",
+      },
+      {
+        title: 'Jin Jie Zhuang',
+        description:
+          "Ajudant a la creació del cartell.",
+      },
+      {
+        title: 'Arnau Palomeque',
+        description:
+          "Creador principal del cartell.",
+      },
+      {
+        title: 'Hugo Gracia',
+        description:
+          "Ajudant a la recerca de menjadors socials i punts estratègics.",
+      },
+      {
+        title: 'Genís Bru',
+        description:
+          "Recerca de menjadors socials i punts estratègics.",
+      },
+      {
+        title: 'Gael Vidal',
+        description:
+          "Coordinador logístic per a la distribució dels cartells.",
+      },
+    ]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Agraïments"
+    subtitle="Agraïm a l'Institut Martí Pol per donar-nos l'oportunitat de portar a terme aquest projecte i als membres de la comunitat que ens han inspirat i recolzat en aquesta jornada.Junts, aspirem a construir un futur on tothom pugui tenir accés als recursos necessaris per viure una vida plena i digna. Uneix-te a nosaltres en aquesta missió de solidaritat i informació."
+    columns={1}
+    isBeforeContent={true}
+  />
+
+  <!-- Steps2 Widget ****************** -->
+
+  {/*<Steps2
+    title="Achievements"
+    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla, sed porttitor est nibh at nulla."
+    isReversed={true}
+    callToAction={{
+      text: 'See more',
+      href: '/',
+    }}
+    items={[
+      {
+        title: 'Global reach',
+        description: 'Nam malesuada urna in enim imperdiet tincidunt. Phasellus non tincidunt nisi, at elementum mi.',
+        icon: 'tabler:globe',
+      },
+      {
+        title: 'Positive customer feedback and reviews',
+        description:
+          'Cras semper nulla leo, eget laoreet erat cursus sed. Praesent faucibus massa in purus iaculis dictum.',
+        icon: 'tabler:message-star',
+      },
+      {
+        title: 'Awards and recognition as industry experts',
+        description:
+          'Phasellus lacinia cursus velit, eu malesuada magna pretium eu. Etiam aliquet tellus purus, blandit lobortis ex rhoncus vitae.',
+        icon: 'tabler:award',
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Our locations"
+    tagline="Find us"
+    columns={4}
+    items={[
+      {
+        title: 'EE.UU',
+        description: '1234 Lorem Ipsum St, 12345, Miami',
+      },
+      {
+        title: 'Spain',
+        description: '5678 Lorem Ipsum St, 56789, Madrid',
+      },
+      {
+        title: 'Australia',
+        description: '9012 Lorem Ipsum St, 90123, Sydney',
+      },
+      {
+        title: 'Brazil',
+        description: '3456 Lorem Ipsum St, 34567, São Paulo',
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Technical Support"
+    tagline="Contact us"
+    columns={2}
+    items={[
+      {
+        title: 'Chat with us',
+        description:
+          'Integer luctus laoreet libero, auctor varius purus rutrum sit amet. Ut nec molestie nisi, quis eleifend mi.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Call us',
+        description:
+          'Mauris faucibus finibus orci, in posuere elit viverra non. In hac habitasse platea dictumst. Cras lobortis metus a hendrerit congue.',
+        icon: 'tabler:headset',
+      },
+    ]}
+    />*/}
+</Layout>

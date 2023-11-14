@@ -1,13 +1,13 @@
 ---
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Content from '~/components/widgets/Content.astro';
+//import CallToAction from '~/components/widgets/CallToAction.astro';
+//import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
+//import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Services',
+  title: 'Ajudes',
 };
 ---
 
@@ -15,9 +15,9 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Services"
-    title="Elevate your projects with our stunning templates"
-    subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
+    tagline="Ajudes"
+    title="Troba les ajudes a la teva disposició"
+    subtitle="Benvinguts a la secció d'Ajuda del nostre Projecte de Solidaritat. Aquí trobaràs informació detallada sobre les diferents ajudes disponibles per a aquells que necessiten suport. La nostra missió és assegurar-nos que aquesta informació sigui accessible i fàcil d'entendre. Descobreix com pots accedir a les següents ajudes:"
     actions={[{ variant:"primary", target: '_blank', text: 'Start exploring', href: '/' }]}
     image={{
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
@@ -28,68 +28,68 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Explore our diverse templates"
-    subtitle="Discover our selection below to streamline and elevate your projects."
+    title="Les Ajudes Disponibles:"
+    subtitle="Aquestes són les ajudes que podras demanar sense moltes complicacions"
     columns={3}
     items={[
       {
-        title: 'Educational',
+        title: 'Ingres Minim Vital (IMV)',
         description:
-          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
+          "L'Ingrés Mínim Vital (IMV) és una prestació destinada a prevenir el risc de pobresa i exclusió social de persones que viuen soles o estan en una unitat de convivència i manquen de recursos econòmics bàsics per cobrir les seves necessitats essencials",
         icon: 'tabler:school',
+        callToAction: {text: "IMV", href: "/"}
       },
       {
-        title: 'Interior Design',
+        title: 'Prestacions per la perdida de vivenda',
         description:
-          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
+          "Les Prestacions econòmiques d'especial urgència davant de la pèrdua de l'habitatge per desnonament o execució hipotecària estan dissenyades per a les persones que han perdut la seva llar a causa d'un desnonament o execució hipotecària i són titulars d'un contracte de lloguer.",
         icon: 'tabler:home-star',
+        callToAction: {text: "Prestacions per la perdida de vivenda", href: "/"}
       },
       {
-        title: 'Photography',
-        description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
+        title: "Prestacions per la deuda d'alquiler",
+        description: `Prestació per fer front als impagaments de les quotes del lloguer amb l'objectiu de possibilitar la permanència a l'habitatge de la persona sol·licitant i la seva unitat de convivència.`,
         icon: 'tabler:photo',
+        callToAction: {text: "Prestacions per la deuda d'alquiler", href: "/"}
       },
       {
-        title: 'E-commerce',
+        title: 'Prestacions per a families en urgencia amb menors de 16 anys',
         description:
-          'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
+          "L'objectiu és alleujar la situació de vulnerabilitat de les famílies amb nens i/o adolescents entre 0 i 16 anys, amb necessitats i amb la finalitat de permetre que la situació econòmica de la unitat familiar cobreixi les necessitats bàsiques de subsistència.",
         icon: 'tabler:shopping-cart',
+        callToAction: {text: "Prestacions per a families en urgencia amb menors de 16 anys", href: "/"}
+      }
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Menjadors Socials"
+    subtitle="Llistat dels menjadors socials a la nostra àrea amb adreces i horaris."
+    columns={3}
+    items={[
+      {
+        title: '15 Av. de Sant Ildefons',
+        icon: 'tabler:school',
+        callToAction: {text: "Mapa", href: "https://www.google.com/maps/place/Sant+Ildefons+de+Cornellà/@41.3647068,2.083415,3a,75y,119.71h,91.81t/data=!3m6!1e1!3m4!1ssH6MYCxTVGJdVduD8dlvwg!2e0!7i16384!8i8192!4m20!1m13!4m12!1m4!2m2!1d2.075722!2d41.3524734!4e1!1m6!1m2!1s0x12a498994ee53c53:0xbd78c9408b37e82e!2sCàritas+Diocesana+de+Barcelona+-+Zona+Pastoral+4+(Barcelonès+Sud),+Av.+de+Sant+Ildefons,+15,+08940+Cornellà+de+Llobregat,+Barcelona!2m2!1d2.0835978!2d41.3646625!3m5!1s0x12a4996a57e51549:0xfceaad4922b9c591!8m2!3d41.3646689!4d2.083731!16s%2Fg%2F11xj2ffjd?entry=ttu", target: '_blank'}
       },
       {
-        title: 'Blog',
-        description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
+        title: '102 C/ de Joaquim Rubió i Ors',
+        icon: 'tabler:home-star',
+        callToAction: {text: "Mapa", href: "https://www.google.com/maps/@41.3538484,2.0684866,3a,54.6y,217.77h,85.71t/data=!3m6!1e1!3m4!1sjb959qch3aOfO0xV4oxmpA!2e0!7i16384!8i8192?entry=ttu", target: '_blank'}
       },
       {
-        title: 'Business',
-        description:
-          'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
-        icon: 'tabler:building-store',
-      },
-      {
-        title: 'Branding',
-        description:
-          'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
-        icon: 'tabler:arrow-big-up-lines',
-      },
-      {
-        title: 'Medical',
-        description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
-        icon: 'tabler:vaccine',
-      },
-      {
-        title: 'Fashion Design',
-        description:
-          'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
-        icon: 'tabler:tie',
-      },
+        title: "14 Carrer de Cristòfor Llargués i Campmany",
+        icon: 'tabler:photo',
+        callToAction: {text: "Mapa", href: "https://www.google.com/maps/@41.361095,2.0796454,3a,75y,233.45h,69.15t/data=!3m6!1e1!3m4!1s4I-4C46sIrekFxFT0c1neQ!2e0!7i16384!8i8192?entry=ttu", target: '_blank'}
+      }
     ]}
   />
 
   <!-- Content Widget **************** -->
 
-  <Content
+  {/*<Content
     isReversed
     items={[
       {
@@ -218,5 +218,5 @@ const metadata = {
     }]}
     title="Dive into our template collection"
     subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
-  />
+  />*/}
 </Layout>

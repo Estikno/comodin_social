@@ -1,6 +1,6 @@
 site:
   name: Comodin Social
-  site: 'https://astrowind.vercel.app'
+  site: 'https://comodin-social.netlify.app'
   base: '/'
   trailingSlash: false
 
@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Comodin_social
-    template: '%s — AstroWind'
+    template: 'Comodin_social'
   description: "Conectem persones amb recursos vitals a través d'informació accessible i suport comunitari"
   robots:
     index: true

@@ -7,6 +7,8 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 Prestació per fer front als impagaments de les quotes del lloguer amb l'objectiu de possibilitar la permanència a l'habitatge de la persona sol·licitant i la seva unitat de convivència.
 
+[Pagina d'inscripció](https://lesmevesajudes.barcelona.cat/es/ayudas/prestaciones-económicas-de-especial-urgencia-para-el-pago-de-deudas-del-alquiler)
+
 ## Requisits:
 
 - **Edat:** No especificada.

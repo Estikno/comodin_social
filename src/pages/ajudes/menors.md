@@ -7,6 +7,8 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 L'objectiu és alleujar la situació de vulnerabilitat de les famílies amb nens i/o adolescents entre 0 i 16 anys, amb necessitats i amb la finalitat de permetre que la situació econòmica de la unitat familiar cobreixi les necessitats bàsiques de subsistència.
 
+[Pagina d'inscripció](https://lesmevesajudes.barcelona.cat/es/ayudas/prestaciones-económicas-de-urgencia-social-las-familias-de-barcelona-con-niños-y-o)
+
 ## Requisits:
 
 - **Edat:** De 0 a 16 anys.

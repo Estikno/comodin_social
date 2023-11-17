@@ -5,6 +5,8 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 L'Ingrés Mínim Vital (IMV) és una prestació destinada a prevenir el risc de pobresa i exclusió social de persones que viuen soles o estan en una unitat de convivència i manquen de recursos econòmics bàsics per cobrir les seves necessitats essencials. A continuació, tens un resum dels requisits i condicions per accedir a aquesta ajuda:
 
+[Pagina d'inscripció](https://lesmevesajudes.barcelona.cat/es/ayudas/ingreso-mínimo-vital-imv)
+
 ## Descripció:
 
 - L'IMV és un dret subjectiu a una prestació econòmica dins de l'acció protectora de la Seguretat Social.

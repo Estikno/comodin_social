@@ -7,6 +7,8 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 Les Prestacions econòmiques d'especial urgència davant de la pèrdua de l'habitatge per desnonament o execució hipotecària estan dissenyades per a les persones que han perdut la seva llar a causa d'un desnonament o execució hipotecària i són titulars d'un contracte de lloguer. A continuació, es resumeix la informació sobre aquesta ajuda:
 
+[Pagina d'inscripció](https://lesmevesajudes.barcelona.cat/es/ayudas/prestaciones-económicas-de-especial-urgencia-ante-la-pérdida-de-la-vivienda-por-desahucio-o)
+
 ## Descripció:
 
 La finalitat d'aquestes prestacions és assegurar la permanència de la persona sol·licitant i la seva unitat de convivència a l'habitatge o l'accés a un nou habitatge.
